@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+body {
+font-family: "Lexend Deca","Big Shoulders Display", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400, 700;
+font-style: normal;
+color: white;
+display: flex;
+background-color: hsl(0, 0%, 95%);
+justify-content: center;
+align-items: center;
+height: 100vh;
+font-size: 15px;
+}
+
+.container-orange {
+  padding: 50px;
+  background-color: hsl(31, 77%, 52%);
+  display: inline-block;
+  border-radius: 5px;
+  width: 25svh;
+  padding-top: 5svh;
+  padding-bottom: 6svh;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 100;
+  width: 21svh;
+  margin-bottom: 10svh;
+  line-height: 1.6;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.orange-learn-more-button {
+  color: hsl(31, 77%, 52%);
+  border: none;
+  width: 16svh;
+  border-radius: 25px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container-cyan {
+  padding: 50px;
+  background-color: hsl(184, 100%, 22%);
+  display: inline-block;
+  border-radius: 5px;
+  width: 25svh;
+  padding-top: 5svh;
+  padding-bottom: 6svh;
+}
+
+.cyan-learn-more-button {
+  color: hsl(184, 100%, 22%);
+  border: none;
+  width: 16svh;
+  border-radius: 25px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container-green {
+  padding: 50px;
+  background-color:  hsl(179, 100%, 13%);
+  display: inline-block;
+  border-radius: 5px;
+  width: 25svh;
+  padding-top: 5svh;
+  padding-bottom: 6svh;
+}
+
+.green-learn-more-button {
+  color: hsl(179, 100%, 13%);
+  border: none;
+  width: 16svh;
+  border-radius: 25px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.attribution {
+  color: black;
+}
